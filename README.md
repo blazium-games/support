@@ -1,13 +1,12 @@
 # Support & Issue Tracker
 
-This repository serves as a **centralized hub** for reporting issues, bugs, feature requests, and general feedback related to our projects.
+This repository serves as a **centralized hub** for reporting issues, bugs, feature requests, and general feedback related to all of Blazium Games projects.
 
 ## Purpose
 
-The main goal is to make it **easy and frictionless** to submit issues without users needing to:
+The main goal is to make it **easy and frictionless** to submit issues without users or team members needing to:
 - search for the correct project repository
 - figure out whether they have access to it
-- decide which team/organization owns the component
 
 All reported issues can later be **transferred** to the appropriate project-specific repository by the maintainers.
 
