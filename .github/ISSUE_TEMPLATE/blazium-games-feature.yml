@@ -1,0 +1,26 @@
+name: Blazium Games feature request
+description: Suggest an improvement to blazium.games, the chauffeur CLI, the MCP servers, or the docs.
+title: "[Blazium Games] "
+labels: ["enhancement", "website"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues here are **public**. Do not include keys, login codes, payment details, or other private information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do
+      description: Describe the problem or workflow this would help with.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you use today

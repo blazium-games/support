@@ -1,0 +1,78 @@
+name: Blazium Games bug report
+description: Something is broken on blazium.games, the chauffeur CLI, the MCP servers, or the crash reporting SDK.
+title: "[Blazium Games] "
+labels: ["bug", "website"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Issues here are **public**.
+
+        **Do not include** passwords, login codes, API keys, deploy keys, MCP keys, payment details, email addresses, or anything else private. If your report needs account or payment details, email [support@blazium.games](mailto:support@blazium.games) instead.
+
+        Security vulnerabilities should also go to [support@blazium.games](mailto:support@blazium.games), not a public issue.
+
+        Before filing, check [status.blazium.games](https://status.blazium.games) for known outages.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where did the problem happen?
+      options:
+        - Website (store, library, account, wallet)
+        - Developer pages (game pages, builds, analytics)
+        - chauffeur CLI or GitHub Actions deploys
+        - MCP server or Cursor plugin
+        - Crash reporting SDK
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe the problem. Include any error message shown on screen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and browser
+      description: Operating system and browser, CLI, or MCP client with versions.
+      placeholder: "Windows 11, Chrome / chauffeur version / MCP client and version"
+    validations:
+      required: true
+  - type: input
+    id: request-id
+    attributes:
+      label: Request ID or time
+      description: If an error showed a request ID, paste it. Otherwise give the approximate time and time zone.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or extra context
+      description: Crop or blur anything private before attaching.
+  - type: checkboxes
+    id: private-data
+    attributes:
+      label: Private data
+      options:
+        - label: I checked that this report contains no keys, codes, payment details, or other private information.
+          required: true
