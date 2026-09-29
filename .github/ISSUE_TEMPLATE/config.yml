@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Blazium Games account, payment, or security issue
+    url: https://blazium.games/support
+    about: Email support@blazium.games for anything involving your account, payments, refunds, or security vulnerabilities. Do not post these publicly.
+  - name: Blazium Games privacy or account deletion
+    url: https://blazium.games/privacy-policy
+    about: Email privacy@blazium.games for data requests and account deletion.
+  - name: Blazium Games service status
+    url: https://status.blazium.games
+    about: Check for known outages and scheduled maintenance before filing.
