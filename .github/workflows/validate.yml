@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: read
+  issues: read
 
 jobs:
   validate:
@@ -19,3 +20,5 @@ jobs:
           python-version: "3.12"
       - run: pip install pyyaml
       - run: python .github/scripts/validate_issue_forms.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
