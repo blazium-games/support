@@ -7,6 +7,21 @@ body:
     attributes:
       value: |
         Issues here are **public**. Do not include keys, login codes, payment details, or other private information.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of Blazium Games is this about?
+      options:
+        - Website (store, library, account, wallet)
+        - Developer pages (game pages, builds, analytics)
+        - chauffeur CLI or GitHub Actions deploys
+        - MCP server or Cursor plugin
+        - Crash reporting SDK
+        - Documentation
+        - Other
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:

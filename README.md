@@ -29,7 +29,8 @@ Issues are public. Never post passwords, login codes, API keys, deploy keys, MCP
 ## Blazium Games (blazium.games)
 
 - Bugs and feature requests for the store, developer pages, chauffeur CLI, MCP servers, and crash reporting SDK: use the **Blazium Games** issue templates.
-- Account, payment, refund, or security issues: email [support@blazium.games](mailto:support@blazium.games). Do not open a public issue.
+- Security vulnerabilities: report them privately through [Report a vulnerability](https://github.com/blazium-games/support/security/advisories/new). See [SECURITY.md](SECURITY.md).
+- Account, payment, or refund issues: email [support@blazium.games](mailto:support@blazium.games). Do not open a public issue.
 - Privacy requests and account deletion: email [privacy@blazium.games](mailto:privacy@blazium.games).
 - Known outages and scheduled maintenance: [status.blazium.games](https://status.blazium.games).
 - Help and documentation: [blazium.games/support](https://blazium.games/support) and [the documentation](https://blazium-games.github.io/games_docs/).

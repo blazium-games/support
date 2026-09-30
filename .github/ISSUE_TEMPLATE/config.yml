@@ -1,8 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Blazium Games account, payment, or security issue
+  - name: Report a security vulnerability
+    url: https://github.com/blazium-games/support/security/advisories/new
+    about: Report vulnerabilities privately. Only the Blazium Games team can see these reports.
+  - name: Blazium Games account or payment issue
     url: https://blazium.games/support
-    about: Email support@blazium.games for anything involving your account, payments, refunds, or security vulnerabilities. Do not post these publicly.
+    about: Email support@blazium.games for anything involving your account, payments, or refunds. Do not post these publicly.
   - name: Blazium Games privacy or account deletion
     url: https://blazium.games/privacy-policy
     about: Email privacy@blazium.games for data requests and account deletion.

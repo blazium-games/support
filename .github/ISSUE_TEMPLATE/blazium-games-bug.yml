@@ -10,7 +10,7 @@ body:
 
         **Do not include** passwords, login codes, API keys, deploy keys, MCP keys, payment details, email addresses, or anything else private. If your report needs account or payment details, email [support@blazium.games](mailto:support@blazium.games) instead.
 
-        Security vulnerabilities should also go to [support@blazium.games](mailto:support@blazium.games), not a public issue.
+        Report security vulnerabilities privately through [Report a vulnerability](https://github.com/blazium-games/support/security/advisories/new), not a public issue. See [SECURITY.md](https://github.com/blazium-games/support/blob/master/SECURITY.md).
 
         Before filing, check [status.blazium.games](https://status.blazium.games) for known outages.
   - type: dropdown
