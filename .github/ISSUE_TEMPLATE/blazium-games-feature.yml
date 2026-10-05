@@ -14,6 +14,7 @@ body:
       description: Which part of Blazium Games is this about?
       options:
         - Website (store, library, account, wallet)
+        - Game chat (Chat tab, IRC clients, chat tokens)
         - Developer pages (game pages, builds, analytics)
         - chauffeur CLI or GitHub Actions deploys
         - MCP server or Cursor plugin
