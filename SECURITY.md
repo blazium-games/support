@@ -16,9 +16,11 @@ We'll acknowledge the report, keep you updated in the advisory while we work on 
 
 - [blazium.games](https://blazium.games), including developer and player accounts, the store, wallets, and payments
 - The MCP servers at mcp.blazium.games
-- The chauffeur CLI and its GitHub Action
+- The chauffeur CLI (`npm install -g @blazium-games/cli`) and its GitHub Action
+- The [desktop launcher](https://github.com/blazium-games/games_launcher)
+- The [skills package](https://github.com/blazium-games/games_skill) (`npm install @blazium-games/skills`)
 - The crash reporting SDK
-- The [documentation site](https://blazium-games.github.io/games_docs/) and Cursor plugin
+- The [documentation site](https://docs.blazium.games) and Cursor plugin
 
 ## Please don't
 
