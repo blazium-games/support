@@ -12,6 +12,8 @@ body:
 
         Report security vulnerabilities privately through [Report a vulnerability](https://github.com/blazium-games/support/security/advisories/new), not a public issue. See [SECURITY.md](https://github.com/blazium-games/support/blob/master/SECURITY.md).
 
+        Never post your chat token. If it was shared, regenerate it at [Settings > Chat](https://blazium.games/settings/chat). To report someone's behavior in chat, email [support@blazium.games](mailto:support@blazium.games) instead of filing an issue; see the [Chat Rules](https://blazium.games/chat-rules).
+
         Before filing, check [status.blazium.games](https://status.blazium.games) for known outages.
   - type: dropdown
     id: area
@@ -20,6 +22,7 @@ body:
       description: Where did the problem happen?
       options:
         - Website (store, library, account, wallet)
+        - Game chat (Chat tab, IRC clients, chat tokens)
         - Developer pages (game pages, builds, analytics)
         - chauffeur CLI or GitHub Actions deploys
         - MCP server or Cursor plugin
@@ -56,7 +59,7 @@ body:
     attributes:
       label: Platform and browser
       description: Operating system and browser, CLI, or MCP client with versions.
-      placeholder: "Windows 11, Chrome / chauffeur version / MCP client and version"
+      placeholder: "Windows 11, Chrome / chauffeur version / MCP client and version / IRC client and version"
     validations:
       required: true
   - type: input

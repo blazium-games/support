@@ -6,6 +6,9 @@ contact_links:
   - name: Blazium Games account or payment issue
     url: https://blazium.games/support
     about: Email support@blazium.games for anything involving your account, payments, or refunds. Do not post these publicly.
+  - name: Report someone in Blazium Games chat
+    url: https://blazium.games/chat-rules
+    about: Email support@blazium.games with the username, game, and time. Do not report people in public issues.
   - name: Blazium Games privacy or account deletion
     url: https://blazium.games/privacy-policy
     about: Email privacy@blazium.games for data requests and account deletion.
