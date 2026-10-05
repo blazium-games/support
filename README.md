@@ -18,7 +18,7 @@ Issues are public. Never post passwords, login codes, API keys, deploy keys, MCP
 - Skills: `npm install @blazium-games/skills`, or Cursor Settings > Plugins > `blazium-games/games_skill`. Index: [SKILL_TREE.md](https://github.com/blazium-games/games_skill/blob/master/SKILL_TREE.md)
 - MCP: [developer server](https://docs.blazium.games/docs/mcp) at `https://mcp.blazium.games/mcp`, and [player server](https://docs.blazium.games/docs/mcp/player) at `https://mcp.blazium.games/player`
 - CLI: `npm install -g @blazium-games/cli` (`chauffeur`), guide at [docs.blazium.games/docs/cli](https://docs.blazium.games/docs/cli)
-- Launcher: Windows setup from [Releases](https://github.com/blazium-games/games_launcher/releases), guide at [desktop app](https://docs.blazium.games/docs/storefront/desktop-app)
+- Launcher: BlaziumLauncher at `{autopf}\Blazium\Games` on Windows. Shared tools are in `{autopf}\Blazium`. Setup from [Releases](https://github.com/blazium-games/games_launcher/releases), guide at [desktop app](https://docs.blazium.games/docs/storefront/desktop-app)
 - Support: [blazium-games/support](https://github.com/blazium-games/support/issues). Status: [status.blazium.games](https://status.blazium.games)
 
 ## This repo
